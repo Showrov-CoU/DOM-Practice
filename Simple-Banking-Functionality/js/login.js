@@ -3,7 +3,7 @@ document.getElementById("submit-btn").addEventListener("click", () => {
   const password = getInputFromInputField("pass-field");
 
   if (email === "admin@gmail.com" && password === "admin") {
-    window.location.href = "myAccount.html";
+    window.location.href = "/othersHTML/myAccount.html";
   } else if (email === "" && password === "") {
     alert("Please login");
   } else {

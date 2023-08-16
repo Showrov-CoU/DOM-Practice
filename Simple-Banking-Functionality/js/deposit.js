@@ -2,12 +2,12 @@ document.getElementById("deposit-btn").addEventListener("click", () => {
   const newDepositAmout = parseFloat(getInputFromInputField("deposit-field"));
 
   const currentDepositAmount = parseFloat(
-    getInputFromTagField("deposite-amout")
+    getInputFromTagField("deposite-amount")
   );
 
   const totalDeposit = currentDepositAmount + newDepositAmout;
 
-  setNewAmout("deposite-amout", totalDeposit);
+  setNewAmout("deposite-amount", totalDeposit);
 
   const currentBalance = parseFloat(getInputFromTagField("balance"));
 
